@@ -1,0 +1,10 @@
+.gradle/
+**/build/
+.idea/
+.vscode/
+*.iml
+*.class
+*.log
+.DS_Store
+!source/did-issuer-sdk/gradle/wrapper/gradle-wrapper.jar
+!source/did-issuer-sdk/libs/*.jar
