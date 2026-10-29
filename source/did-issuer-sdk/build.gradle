@@ -16,8 +16,9 @@ repositories {
 }
 
 dependencies {
-    // SDK public types expose classes from these jars to consuming servers.
-    api fileTree(dir: 'libs', include: ['*.jar'])
+    // Both common JARs define IdGenerator. Prefer the newer common SDK API.
+    api files('libs/did-common-sdk-server-2.0.0.jar')
+    api fileTree(dir: 'libs', include: ['*.jar'], exclude: ['did-common-sdk-server-2.0.0.jar'])
 
     implementation 'com.google.code.gson:gson:2.10.1'
     implementation 'org.bouncycastle:bcpkix-jdk18on:1.79'
