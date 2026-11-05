@@ -12,6 +12,6 @@ class CommonSdkClasspathTest {
         assertNotNull(IdGenerator.class.getMethod("generateUUID"));
         assertNotNull(IdGenerator.class.getMethod("generateRefId"));
         assertTrue(IdGenerator.class.getProtectionDomain().getCodeSource().getLocation().toString()
-                .contains("did-common-sdk-server-2.0.0.jar"));
+                .contains("did-common-sdk-server-3.0.0.jar"));
     }
 }

@@ -1,6 +1,5 @@
 package org.omnione.did.sdk.issuer.model.domain;
 
-import org.omnione.did.common.vo.HeaderEntry;
 import org.omnione.did.sdk.issuer.model.enums.InitiateType;
 import org.omnione.did.sdk.issuer.model.enums.UserQueryType;
 import org.omnione.did.sdk.issuer.model.enums.VcIssuanceMode;
