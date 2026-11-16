@@ -1,6 +1,6 @@
 # Issuer SDK 소스 프로젝트
 
-`org.omnione.did:did-issuer-sdk:1.0.0`을 빌드하는 Gradle `java-library` 모듈입니다. VC 발급·폐기 프로토콜, DTO, 전송 모델, Provider 인터페이스, 검증 및 SDK 오류를 포함합니다. HTTP 엔드포인트, Spring bean, 데이터베이스 스키마는 포함하지 않습니다.
+`org.omnione.did:did-issuer-sdk:3.0.0`을 빌드하는 Gradle `java-library` 모듈입니다. VC 발급·폐기 프로토콜, DTO, 전송 모델, Provider 인터페이스, 검증 및 SDK 오류를 포함합니다. HTTP 엔드포인트, Spring bean, 데이터베이스 스키마는 포함하지 않습니다.
 
 ## 빌드
 
@@ -14,7 +14,7 @@ JAR은 `build/libs/`에 생성됩니다. `libs/`의 OpenDID JAR은 SDK 컴파일
 
 ## Issuer Server 연동
 
-SDK를 빌드한 뒤 `build/libs/did-issuer-sdk-1.0.0.jar`을 서버의 `source/did-issuer-server/libs/`에 복사합니다. 서버는 이 JAR을 사용하며 SDK 소스를 직접 컴파일하지 않습니다. 서버 `libs/`에는 `did-common-sdk-server-2.0.0.jar`을 포함한 OpenDID 의존 JAR도 유지합니다.
+SDK를 빌드한 뒤 `build/libs/did-issuer-sdk-3.0.0.jar`을 서버의 `source/did-issuer-server/libs/`에 복사합니다. 서버는 이 JAR을 사용하며 SDK 소스를 직접 컴파일하지 않습니다. 서버 `libs/`에는 `did-common-sdk-server-3.0.0.jar`을 포함한 OpenDID 의존 JAR도 유지합니다.
 
 ## 구조
 

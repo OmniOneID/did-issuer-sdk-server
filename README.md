@@ -49,7 +49,7 @@ cd source/did-issuer-sdk
 ./gradlew clean build
 ```
 
-The output is `build/libs/did-issuer-sdk-1.0.0.jar`. To update a sibling `did-issuer-server` checkout, copy this JAR into its `source/did-issuer-server/libs/` directory. The server also needs the OpenDID dependency JARs used by the SDK, including `did-common-sdk-server-2.0.0.jar`.
+The output is `build/libs/did-issuer-sdk-3.0.0.jar`. To update a sibling `did-issuer-server` checkout, copy this JAR into its `source/did-issuer-server/libs/` directory. The server also needs the OpenDID dependency JARs used by the SDK, including `did-common-sdk-server-3.0.0.jar`.
 
 For build dependencies and host integration, see the [source project README](source/did-issuer-sdk/README.md).
 

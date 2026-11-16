@@ -1,6 +1,6 @@
 # Issuer SDK source project
 
-This Gradle `java-library` module builds `org.omnione.did:did-issuer-sdk:1.0.0`. It contains VC issuance and revocation protocols, DTOs, transfer models, provider interfaces, validation, and SDK errors. It has no HTTP endpoints, Spring beans, or database schema.
+This Gradle `java-library` module builds `org.omnione.did:did-issuer-sdk:3.0.0`. It contains VC issuance and revocation protocols, DTOs, transfer models, provider interfaces, validation, and SDK errors. It has no HTTP endpoints, Spring beans, or database schema.
 
 ## Build
 
@@ -14,7 +14,7 @@ The JAR is written to `build/libs/`. The `libs/` directory supplies OpenDID SDK 
 
 ## Use with Issuer Server
 
-Build this project, then copy `build/libs/did-issuer-sdk-1.0.0.jar` to the server's `source/did-issuer-server/libs/`. The server's Gradle build uses the JAR in `libs/`; it does not compile SDK sources. Keep its OpenDID dependency JARs, including `did-common-sdk-server-2.0.0.jar`, in the same server `libs/` directory.
+Build this project, then copy `build/libs/did-issuer-sdk-3.0.0.jar` to the server's `source/did-issuer-server/libs/`. The server's Gradle build uses the JAR in `libs/`; it does not compile SDK sources. Keep its OpenDID dependency JARs, including `did-common-sdk-server-3.0.0.jar`, in the same server `libs/` directory.
 
 ## Architecture
 

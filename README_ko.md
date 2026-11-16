@@ -49,7 +49,7 @@ cd source/did-issuer-sdk
 ./gradlew clean build
 ```
 
-결과물은 `build/libs/did-issuer-sdk-1.0.0.jar`입니다. 형제 폴더의 `did-issuer-server`를 갱신할 때 이 JAR을 서버의 `source/did-issuer-server/libs/`에 복사합니다. 서버에는 `did-common-sdk-server-2.0.0.jar` 등 SDK가 사용하는 OpenDID 의존 JAR도 필요합니다.
+결과물은 `build/libs/did-issuer-sdk-3.0.0.jar`입니다. 형제 폴더의 `did-issuer-server`를 갱신할 때 이 JAR을 서버의 `source/did-issuer-server/libs/`에 복사합니다. 서버에는 `did-common-sdk-server-3.0.0.jar` 등 SDK가 사용하는 OpenDID 의존 JAR도 필요합니다.
 
 의존성과 Provider 연동 방법은 [소스 프로젝트 README](source/did-issuer-sdk/README_ko.md)를 참고하세요.
 
